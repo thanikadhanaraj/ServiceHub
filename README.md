@@ -1,111 +1,16 @@
-# ServiceHub
-ServiceHub is a full-stack home service booking web application that enables customers to book services, providers to manage jobs, and administrators to manage users and services. Built using React, Node.js, Express.js, MySQL, and JWT authentication.
-# 🏠 ServiceHub
+# React + Vite
 
-A full-stack home service booking platform.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-### Customer
-- Register & Login
-- Browse Services
-- Search & Filter Services
-- View Provider Profiles
-- Book Services
-- Mock Payment
-- Booking History
-- Submit Reviews after Completed Services
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-### Provider
-- Provider Registration
-- Dashboard
-- Job Requests
-- Accept / Reject Jobs
-- Start & Complete Jobs
-- Earnings Dashboard
-- Customer Reviews
+## React Compiler
 
-### Admin
-- Secure Admin Login
-- Dashboard Analytics
-- Manage Customers
-- Manage Providers
-- Approve/Reject Providers
-- Manage Services
-- View Bookings
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠 Tech Stack
+## Expanding the ESLint configuration
 
-Frontend
-- React.js
-- Vite
-- Tailwind CSS
-- Axios
-
-Backend
-- Node.js
-- Express.js
-- JWT Authentication
-- bcrypt
-
-Database
-- MySQL
-
-## ✨ Highlights
-
-- Role-Based Authentication
-- Protected Routes
-- REST APIs
-- Responsive UI
-- Mock Payment Integration
-- Customer Reviews
-- Booking Workflow
-- Provider Dashboard
-- Admin Dashboard
-
-## 📂 Project Structure
-
-```
-frontend/
-backend/
-```
-
-## ⚙️ Installation
-
-```bash
-git clone <repository-url>
-
-cd backend
-npm install
-npm run dev
-
-cd ../frontend
-npm install
-npm run dev
-```
-
-## 👤 Demo Accounts
-
-### Admin
-
-Email:
-admin@servicehub.com
-
-Password:
-admin123
-
-### Sample Provider
-
-Email:
-akshaya@gmail.com
-
-Password:
-akshaya1122
-
-### Sample Customer
-
-Create a new account or use a seeded customer.
-
-## 📜 License
-
-MIT
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
